@@ -1,0 +1,12 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/vacancies
+method: POST
+body:
+  type: json
+  content: '   {"title":"DevOps Engineer","description":"CI/CD və serverlər","city":"Baku","salary":2000}'
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_00hy}}"
+order: 9000

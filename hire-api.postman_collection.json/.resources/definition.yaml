@@ -1,0 +1,8 @@
+$kind: collection
+variables:
+  - key: json_web_token_00hy
+    secret: true
+    disabled: false
+  - key: json_web_token_0ees
+    secret: true
+    disabled: false

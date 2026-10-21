@@ -1,0 +1,14 @@
+{
+  "name": "hire-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/server.js",
+    "dev": "bun --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0"
+  }
+}

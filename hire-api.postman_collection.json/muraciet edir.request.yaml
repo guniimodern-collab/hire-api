@@ -1,0 +1,12 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/applications
+method: POST
+body:
+  type: json
+  content: '{"vacancyId":"...","coverLetter":"Salam"}'
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_00hy}}"
+order: 4000

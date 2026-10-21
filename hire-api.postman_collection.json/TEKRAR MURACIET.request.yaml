@@ -1,0 +1,12 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/applications
+method: POST
+body:
+  type: json
+  content: '   {"vacancyId":"6ad8827b74a62b453a525251","coverLetter":"Salam, müraciət edirəm"}'
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0ees}}"
+order: 11000

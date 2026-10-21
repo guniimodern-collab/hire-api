@@ -1,0 +1,11 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/vacancies?city=baku&search=dev&minSalary=1000&page=1&limit=5
+method: GET
+queryParams:
+  city: baku
+  search: dev
+  minSalary: "1000"
+  page: "1"
+  limit: "5"
+order: 6000

@@ -1,0 +1,12 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/applications/6ad887f865f4c3fad707dff1/status
+method: PATCH
+body:
+  type: json
+  content: '   {"status":"reviewing"}'
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_00hy}}"
+order: 10000
