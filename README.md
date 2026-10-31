@@ -80,4 +80,4 @@ Müraciət statusları: `applied`, `reviewing`, `interview`, `accepted`, `reject
 
 ## Postman
 
-`hire-api.postman_collection.json` faylını Postman-a import edin.
+`hire-api_collection.json` faylını Postman-a import edin.
